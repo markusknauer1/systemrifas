@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Outfit-VariableFont_wght;
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: YoungSerif-Regular;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Faz com que o corpo ocupe 100% da altura da viewport */
+  margin: 0; /* Remove margens padrão do body */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./assets/imagens/bkg-personagem.png");
+}
+h1 {
+  font-family: "Outfit-VariableFont_wght";
+  font-size: 25px;
+}
+p {
+  font-family: "Outfit-VariableFont_wght";
+}
+.cardRif {
+  width: 90%; 
+  max-width: 400px; 
+  height: auto; 
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  align-items: center;
+  margin: 10%;
+  border-radius: 25px; 
+  border: 10px 10px solid rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ul{
+  width: 90%;
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+  display: flex;justify-content: center;
+  font-family: "Outfit-VariableFont_wght";
+}
+.selecioneRifa{
+  width: 100%; 
+  max-width: 200px;
+  padding: 5px; 
+  border-radius: 10px; 
+  margin: 5px;
+  border: none;
+  position: relative;
+  text-decoration: none;
+  
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+/* link que redireciona para a seleção de quantidade de rifas a comprar */
+.itemRif{ 
+  width: 90%; 
+  display: flex;
+  flex-direction: column; 
+  padding: 10px; 
+  margin: 10%;
+  border-radius: 10px; 
+  border: none;
+  position: relative;
+  gap: 15px;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+}
+.itemRif{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.itemRif:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #FFF;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+/* Botão de compra de rifas */
+input,
+button{
+  width: 90%; 
+  max-width: 200px; 
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 10px; 
+  margin: 10%;
+  border-radius: 10px; 
+  border: none;
+  position: relative;
+  gap: 15px;
+  left: 0;
+  top: 0;
+}
+button{
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #FFF;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
